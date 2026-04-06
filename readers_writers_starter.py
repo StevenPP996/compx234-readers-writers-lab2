@@ -193,9 +193,9 @@ def main() -> None:
     for thread in all_threads:
         thread.join()
     # TODO: Print final message that simulation completed
-    print("\n" + "="*50)
-    print("✅ Readers-Writers Simulation Completed Successfully!")
-    print("="*50)
+    print("\n"+"="*50)
+    print("Reader-Writers Simulation Completed successfully!")
+    print("="50)
 
 if __name__ == "__main__":
     main()
